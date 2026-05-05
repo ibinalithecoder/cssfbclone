@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+      background: #f0f2f5;
+    }
+
+.navigationbar1{
+display: flex;
+position: fixed;
+top: 0px;
+z-index: 1;
+width: 100%;
+height: 50px;
+background-color: #ffffff;
+}
+
+.navigationbar1 img{
+  width: 20px;
+}
+
+.faclogo img{
+  width:60px;
+  margin-left: 10px;
+  
+}
+
+.searchbar{
+margin-top: 8px;
+}
+
+.searchbar input{
+  border-radius: 20px;
+  border: 1px solid rgb(239, 239, 239);
+  background-color: rgb(239, 239, 239);
+  padding: 8px;
+  padding-left: 18px;
+  width: 250px;
+  font-size:16px;
+}
+
+
+.leftnav{
+  display: flex;
+}
+
+
+.centernav{
+  display: flex;
+  margin-left:180px ;
+  gap: 80px;
+  margin-top: 10px;
+}
+
+.centernav img{
+  width: 28px;
+}
+
+.centernav .icon4 img{
+  width: 34px;
+  margin-top: -2px;
+}
+
+.centernav .icon3 img{
+  width: 58px;
+}
+
+.centernav .icon5 img{
+  width: 36px;
+}
+
+.centernav img:hover{
+ background-color: rgb(197, 197, 197);
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.icon3 img:hover{
+ background-color: rgb(104, 102, 102);
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+ padding-top: 5px;
+ padding-bottom: 5px;
+
+}
+
+.icon4 img:hover{
+ background-color: rgb(197, 197, 197);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.icon5 img:hover{
+ background-color: rgb(197, 197, 197);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.rightnav{
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  gap: 10px;
+}
+
+
+.rightnav img{
+width: 30px;
+}
+
+.rightnav .icon4{
+    background-color: gray;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.rightnav div:hover{
+  background-color: rgb(197, 197, 197);
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  
+}
+
+.rightnav .icon2:hover{
+  background-color: rgb(197, 197, 197);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding-top: 5px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 45px;
+}
+
+
+/* section2flex */
+
+
+.flexdiv{
+display: flex;
+width: 100%;
+}
+
+.sec1eft{
+    background-color: rgb(218, 218, 218);
+    width: 22%;
+    position: sticky;
+  bottom: 50px;
+    height: auto;
+    overflow-y:auto;
+    
+  
+}
+
+
+.coloum{
+  height: 50px;
+  background-color: rgb(218, 218, 218);
+  margin-top:15px;
+  margin-left: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top:6px;
+  padding-left:20px;
+  display: flex;
+}
+
+.coloum1{
+  height: 50px;
+  background-color: rgb(218, 218, 218);
+  margin-top:55px;
+  margin-left: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-top:6px;
+  padding-left:20px;
+  display: flex;
+}
+
+.profile{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#ffffff;
+  border: 1px solid rgb(133, 132, 132);
+ 
+}
+
+.coltext1{
+font-size: 20px;
+/* font-weight: bold; */
+margin-top: 10px;
+margin-left: 15px;
+color: #0e0e0e;
+}
+
+.coloum img{
+  width: 35px;
+}
+
+.imgsaved img{
+  width: 40px;
+}
+
+.imggroups img{
+width: 50px;
+}
+
+.imgreels img{
+  width: 40px;
+}
+.imgAdsManager img{
+width: 40px;
+}
+
+.coloum:hover{
+  background-color: rgb(208, 207, 207);
+}
+
+
+.seccenter{
+  background-color: rgb(163, 24, 24);
+    width: 56%;
+    height:auto;
+    
+    
+
+}
+
+
+
+
+.firstdivcen{
+  display: flex;
+  width: 96%;
+  height: 60px;
+  background-color: white;
+  margin-top: 70px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 15px;
+}
+
+.profilecenter{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#ffffff;
+  border: 1px solid rgb(133, 132, 132);
+}
+
+.searchcenter input{
+  border-radius: 20px;
+  border: 1px solid rgb(223, 221, 221);
+  background-color: rgb(223, 221, 221);
+  padding: 10px;
+  width:510px;
+  margin-left: 10px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.firstdivcenimg{
+  display: flex;
+  gap: 25px;
+  margin-left:18px;
+}
+
+.firstdivcenimg div{
+  border-radius: 10px;
+  padding-left:5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.firstdivcen img{
+  width: 40px;
+}
+
+.photodiv1 img{
+width: 35px;
+}
+
+.firstdivcenimg div:hover{
+background-color: rgb(227, 227, 227);
+}
+
+
+.seconddivstory{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.stroymy{
+width: 120px;
+height: 180px;
+background-image:url('https://photostock.skssf.in/preview/111925.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+border-radius:15px;
+position: relative;
+}
+
+
+.stroy1, .stroy2, .stroy3, .stroy4, .stroy5{
+  width: 120px;
+  height: 180px;
+  background-image:url('https://photostock.skssf.in/preview/111925.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+border-radius:15px;
+position: relative;
+}
+
+
+
+.stroymy{
+  background-color: beige;
+  width: 130px;
+  height: 180px;
+  border-radius: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.stroy1, .stroy2, .stroy3, .stroy4, .stroy5 {
+  background-color: beige;
+  width: 130px;
+  height: 180px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+
+
+.roundpro img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+.whitediv{
+  background-color: white;
+  width: 130px;
+  height: 70px;
+  position: absolute;
+  bottom: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.whitediv img{
+  width: 35px;
+  position: absolute;
+  top: -16;
+  left: 30%;
+  background-color: #ffffff;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+
+.whitediv h4{
+  margin-top: 42px;
+  text-align: center;
+} 
+
+
+
+.secright{
+background-color: rgb(199, 199, 199);
+width: 22%;
+position: sticky;
+right: 0px;
+height: 100vh;
+overflow-y: auto;
+}
+
+.postersdiv{
+  width: 96%;
+  height: 500px;
+  margin: auto;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.upposter{
+  display:flex;
+  width:100%;
+  height: auto;
+  background-color: #1958b5;
+  position: relative;
+}
+
+.profilposter img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.profileright{
+  display: flex;
+}
+
+.freinds img{
+  width: 30px;
+}
